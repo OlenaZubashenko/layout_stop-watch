@@ -11,20 +11,20 @@
   -webkit-animation: clock-move 2s both infinite alternate;
           animation: clock-move 2s both infinite alternate; }
 
-.circle,
-.line1,
-.line2 {
+.center-circle,
+.minute-hand,
+.second-hand {
   position: absolute;
   transform-origin: bottom center; }
 
-.circle {
+.center-circle {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background: #f14f04;
   z-index: 2; }
 
-.line1 {
+.minute-hand {
   width: 6px;
   height: 80px;
   border-radius: 5px;
@@ -34,7 +34,7 @@
   -webkit-animation: second-minutes 3600s steps(60, end) infinite;
           animation: second-minutes 3600s steps(60, end) infinite; }
 
-.line2 {
+.second-hand {
   width: 5px;
   height: 150px;
   border-radius: 15px;
